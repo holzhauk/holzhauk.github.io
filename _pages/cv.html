@@ -154,6 +154,23 @@
 </header>
 <p>{% include base_path %}</p>
 <style>
+
+ dl {
+    position: relative;
+ }
+
+ dl dt {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+
+ dl dd {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+ }
+
  .cv_block {
     position: relative;
  }
@@ -175,7 +192,7 @@
  }
 
  .cv_block .cv_entry .content .description {
-    width: auto;
+    width: 500px;
     height: auto;
  }
 
@@ -192,11 +209,10 @@ M.Sc. in Physics (expected)
 </div>
 <div class="description">
 <pre><code>Humboldt-Universität zu Berlin
-
 &lt;dl&gt;
- &lt;dt&gt; Thesis: &lt;/dt&gt;
- &lt;dd&gt; &quot;An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators&quot; &lt;/dd&gt;
-&lt;/dl&gt;</code></pre>
+     &lt;dt&gt; Thesis: &lt;/dt&gt;
+     &lt;dd&gt; &quot;An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators&quot; &lt;/dd&gt;
+    &lt;/dl&gt;</code></pre>
 </div>
 </div>
 </div>
