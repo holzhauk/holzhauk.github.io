@@ -11,22 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
+2021	**M.Sc. in Physics** (expected)
+	Humboldt-Universität zu Berlin
+	Thesis: "An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"
+
+2019	**B.Sc. in Physics**
+	Humboldt-Universität zu Berlin
+	Thesis: "Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"
+
+Research and Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+2015-2018	**Student Assistant**
+		[Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp
+
+<!--  
 Skills
 ======
 * Skill 1
@@ -57,3 +57,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
