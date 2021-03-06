@@ -11,20 +11,41 @@ redirect_from:
 
 Education
 ======
-
-2021	**M.Sc. in Physics** (expected)
-	Humboldt-Universität zu Berlin
-	Thesis: "An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"
-
-2019	**B.Sc. in Physics**
-	Humboldt-Universität zu Berlin
-	Thesis: "Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"
+<table class="tabular_cv">
+	<tr>
+		<td>2021</td>	
+		<td>
+			<table class="inline_table">
+				<tr><td>**M.Sc. in Physics** (expected)</td></tr>
+				<tr><td>Humboldt-Universität zu Berlin</td></tr>
+				<tr><td>Thesis: "An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"</td></tr>
+			</table>
+		</td>
+	</tr><tr>
+		<td>2019</td>
+		<td>
+			<table class="inline_table">
+				<tr><td>**B.Sc. in Physics**</td></tr>
+				<tr><td>Humboldt-Universität zu Berlin</td></tr>
+				<tr><td>Thesis: "Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
 
 Research and Work experience
 ======
-
-2015-2018	**Student Assistant**
-		[Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp
+<table class="tabular_cv">
+	<tr>
+		<td>2015-2018</td>
+		<td>
+			<table class="inline_table">
+				<tr><td>**Student Assistant**</td></tr>
+				<tr><td>[Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
 
 <!--  
 Skills
