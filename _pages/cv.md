@@ -43,7 +43,7 @@ redirect_from:
  .cv_block .cv_entry .content .description .thesis .thesis_title {
 	position: absolute;
 	top: 0px;
-	left: 100px;
+	left: 60px;
  }
 
 </style>
