@@ -71,6 +71,42 @@ Education
   </div>
  </div>
 
+ <div class="cv_entry">
+  <div class="time_window">
+   2019
+  </div>
+  <div class="content">
+   <div class="title"> B.Sc. in Physics</div>
+   <div class="description">
+    <div class="affiliation"> Humboldt-Universität zu Berlin </div>
+    <div class="thesis"> 
+	Thesis: 
+	<div class="thesis_title">
+		"Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+</div>
+
+Research and Work Experience
+======
+
+<div class="cv_block experience">
+ <div class="entry">
+  <div class="time_window">
+	2015-2018
+  </div>
+  <div class="content">
+   <div class="title">Student Assistant</div>
+   <div class="description">
+    <div class="affiliation"> [Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp
+    </div>
+   </div>
+  </div>
+ </div>
 </div>
 
 <!--
