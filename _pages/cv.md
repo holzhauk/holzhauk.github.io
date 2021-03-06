@@ -9,6 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+table, td, tr {
+	border: 0px;
+	border-collapse: collapse;
+	vertical-aligne: top;
+}
+td {
+	padding: 5px;
+	text-align: left;
+}
+</style>
+
 Education
 ======
 <table class="tabular_cv">
