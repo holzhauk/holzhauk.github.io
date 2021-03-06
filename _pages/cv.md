@@ -9,11 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+</style>
+
 Education
 ======
 
-2019 	| Master in Bachelor of things
-	| und so weiter
+<div class="cv_block education">
+
+ <div class="cv_entry">
+  <div class="time_window">
+   2021
+  </div>
+  <div class="content">
+   **M.Sc. in Physics**
+  </div>
+ </div>
+
+</div>
 
 <!--
 
