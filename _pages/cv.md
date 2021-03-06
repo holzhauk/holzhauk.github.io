@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,14 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+Education
+======
+
+2019 	| Master in Bachelor of things
+	| und so weiter
+
+<!--
 
 <style>
 table, td, tr {
@@ -58,6 +66,7 @@ Research and Work experience
 		</td>
 	</tr>
 </table>
+-->
 
 <!--  
 Skills
