@@ -155,22 +155,6 @@
 <p>{% include base_path %}</p>
 <style>
 
- dl {
-    position: relative;
- }
-
- dl dt {
-    position: absolute;
-    top: 0px;
-    left: 0px;
- }
-
- dl dd {
-    position: absolute;
-    top: 0px;
-    left: 100px;
- }
-
  .cv_block {
     position: relative;
  }
@@ -196,6 +180,16 @@
     height: auto;
  }
 
+ .cv_block .cv_entry .content .description .thesis {
+    position: relative;
+ }
+
+ .cv_block .cv_entry .content .description .thesis .thesis_title {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+ }
+
 </style>
 <h1 id="education">Education</h1>
 <div class="cv_block education">
@@ -208,11 +202,13 @@
 M.Sc. in Physics (expected)
 </div>
 <div class="description">
-<pre><code>Humboldt-Universität zu Berlin
-&lt;dl&gt;
-     &lt;dt&gt; Thesis: &lt;/dt&gt;
-     &lt;dd&gt; &quot;An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators&quot; &lt;/dd&gt;
-    &lt;/dl&gt;</code></pre>
+<pre><code>&lt;div class=&quot;affiliation&quot;&gt; Humboldt-Universität zu Berlin &lt;/div&gt;
+&lt;div class=&quot;thesis&quot;&gt; 
+Thesis: 
+&lt;div class=&quot;thesis_title&quot;&gt;
+    &quot;An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators&quot;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 </div>
 </div>
 </div>

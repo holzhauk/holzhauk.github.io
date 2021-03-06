@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "cv"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,22 +10,6 @@ redirect_from:
 {% include base_path %}
 
 <style>
-
- dl {
- 	position: relative;
- }
-
- dl dt {
-	position: absolute;
-	top: 0px;
-	left: 0px;
- }
-
- dl dd {
-	position: absolute;
-	top: 0px;
-	left: 100px;
- }
 
  .cv_block {
 	position: relative;
@@ -52,6 +36,16 @@ redirect_from:
 	height: auto;
  }
 
+ .cv_block .cv_entry .content .description .thesis {
+	position: relative;
+ }
+
+ .cv_block .cv_entry .content .description .thesis .thesis_title {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+ }
+
 </style>
 
 Education
@@ -65,12 +59,14 @@ Education
   </div>
   <div class="content">
    <div class="title"> M.Sc. in Physics (expected)</div>
-   <div class="description"> 
-	Humboldt-Universität zu Berlin
-	<dl>
-     	 <dt> Thesis: </dt>
-     	 <dd> "An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators" </dd>
-    	</dl>
+   <div class="description">
+    <div class="affiliation"> Humboldt-Universität zu Berlin </div>
+    <div class="thesis"> 
+	Thesis: 
+	<div class="thesis_title">
+		"An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"
+        </div>
+    </div>
    </div>
   </div>
  </div>
