@@ -14,6 +14,10 @@ redirect_from:
  .cv_block {
 	position: relative;
  }
+
+ .cv_block .cv_entry {
+	position: relative;
+ }
  
  .cv_block .cv_entry .time_window {
 	position: absolute;
