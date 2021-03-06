@@ -10,6 +10,17 @@ redirect_from:
 {% include base_path %}
 
 <style>
+ .cv_block .cv_entry .time_window {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+ }
+
+ .cv_block .cv_entry .content {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+ }
 </style>
 
 Education
@@ -22,7 +33,8 @@ Education
    2021
   </div>
   <div class="content">
-   **M.Sc. in Physics**
+   <div class="title">M.Sc. in Physics</div>
+   <div class=""></div>
   </div>
  </div>
 
