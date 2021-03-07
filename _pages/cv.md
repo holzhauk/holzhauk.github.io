@@ -26,9 +26,15 @@ redirect_from:
 
 	table.cv tr {
 		display: block;
+		border: none;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		vertical-align: top;
+	}
+
+	table.cv td {
+		border: none;
+		font-size: 1em;
 	}
 
 	table.cv td.year {
