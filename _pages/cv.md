@@ -10,11 +10,17 @@ redirect_from:
 {% include base_path %}
 
 <style>
+
+	.table_container {
+		width: 100%;
+	}
+
 	table.cv {
 		padding: 15px;
 		text-align: left;
 		width: 80%;
 		max-width: 700px;
+		border: none;
 	}
 
 	table.cv tr {
@@ -26,6 +32,7 @@ redirect_from:
 
 	table.cv td.year {
 		width: 100px;
+		vertical-align: top;
 	}
 
 	table.cv td.content .title {
