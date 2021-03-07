@@ -13,7 +13,8 @@ I am a Physics Master student at [HU Berlin](https://www.physik.hu-berlin.de/de/
 Projects
 ======
 
-[## FRTPhase](https://github.com/holzhauk/FRTPhase)
+[FRTPhase](https://github.com/holzhauk/FRTPhase)
+------
 
 <img src="/images/about/FRTPhaseTeaser.png" title="Isochron and Distribution of Mean-First-Return Times of an isotropic stochastic oscillator" alt="Isochron and Distribution of Mean-First-Return Times of an isotropic stochastic oscillator" >
 
