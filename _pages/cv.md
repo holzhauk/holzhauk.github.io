@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -20,6 +20,7 @@ redirect_from:
 		text-align: left;
 		width: 80%;
 		max-width: 700px;
+		border-collapse: collapse;
 		border: none;
 	}
 
