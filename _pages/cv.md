@@ -78,7 +78,7 @@ Education
 		<tr>
 			<td class="year">2021</td>
 			<td class="content">
-				<div  class="title">M.Sc. in Physics</div>
+				<div  class="title">M.Sc. in Physics (expected)</div>
 				<div class="description">
 					<div class="affiliation"> Humboldt-Universität zu Berlin </div>
 					<div class="thesis">
