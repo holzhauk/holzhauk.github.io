@@ -18,8 +18,8 @@ redirect_from:
 	table.cv {
 		padding: 15px;
 		text-align: left;
-		width: 80%;
-		max-width: 700px;
+		width: 100%;
+		max-width: 600px;
 		border-collapse: collapse;
 		border: none;
 	}
