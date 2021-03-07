@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,161 +10,107 @@ redirect_from:
 {% include base_path %}
 
 <style>
+	table.cv {
+		padding: 15px;
+		text-align: left;
+		width: 80%;
+		max-width: 700px;
+	}
 
- .cv_block {
-	position: relative;
- }
+	table.cv tr {
+		display: block;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		vertical-align: top;
+	}
 
- .cv_block .cv_entry {
-	position: relative;
- }
- 
- .cv_block .cv_entry .time_window {
-	position: absolute;
-	left: 0px;
-	top: 0px;
- }
+	table.cv td.year {
+		width: 100px;
+	}
 
- .cv_block .cv_entry .content {
-	position: absolute;
-	left: 200px;
-	top: 0px;
- }
+	table.cv td.content .title {
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
 
- .cv_block .cv_entry .content .title {
-	font-weight: bold;
- }
+	table.cv td.content .affiliation {
+		margin-bottom: 5px;
+	}
 
- .cv_block .cv_entry .content .description {
-	width: 500px;
-	height: auto;
- }
+	table.cv td.content .description {
+		position: relative;
+	}
 
- .cv_block .cv_entry .content .description .thesis {
-	position: relative;
- }
+	table.cv td.content .description .thesis {
+		display: flex;
+		flex-direction: row;
+	}
 
- .cv_block .cv_entry .content .description .thesis .thesis_title {
-	position: absolute;
-	top: 0px;
-	left: 70px;
- }
+	table.cv td.content .description .thesis .thesis_title {
+		flex-grow: 1;
+	}
 
+	table.cv td.content .description .thesis .label {
+		margin-right: 10px;
+		flex-grow: 1;
+	}
 </style>
 
 Education
 ======
 
-<div class="cv_block education">
-
- <div class="cv_entry">
-  <div class="time_window">
-   2021
-  </div>
-  <div class="content">
-   <div class="title"> M.Sc. in Physics (expected)</div>
-   <div class="description">
-    <div class="affiliation"> Humboldt-Universität zu Berlin </div>
-    <div class="thesis"> 
-	Thesis: 
-	<div class="thesis_title">
-		"An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"
-        </div>
-    </div>
-   </div>
-  </div>
- </div>
-
- <div class="cv_entry">
-  <div class="time_window">
-   2019
-  </div>
-  <div class="content">
-   <div class="title"> B.Sc. in Physics</div>
-   <div class="description">
-    <div class="affiliation"> Humboldt-Universität zu Berlin </div>
-    <div class="thesis"> 
-	Thesis: 
-	<div class="thesis_title">
-		"Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-
+<div class="table_container">
+	<table class="cv">
+		<tr>
+			<td class="year">2021</td>
+			<td class="content">
+				<div  class="title">M.Sc. in Physics</div>
+				<div class="description">
+					<div class="affiliation"> Humboldt-Universität zu Berlin </div>
+					<div class="thesis">
+						<div class="label">Thesis:</div>
+						<div class="thesis_title">
+							"An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"
+						</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="year">2019</td>
+			<td class="content">
+				<div class="title"> B.Sc. in Physics</div>
+   				<div class="description">
+    					<div class="affiliation"> Humboldt-Universität zu Berlin </div>
+    					<div class="thesis"> 
+						<div class="label">Thesis:</div> 
+						<div class="thesis_title">
+							"Spatial modeling of cell polarization in <I>Saccharomyces cerevisiae</I>: Understanding the interplay of GTPase cycling and the cell's transport system"
+     						</div>
+    					</div>
+   				</div>
+			</td>
+		</tr>
+	</table>
 </div>
 
 Research and Work Experience
 ======
 
-<div class="cv_block experience">
- <div class="entry">
-  <div class="time_window">
-	2015-2018
-  </div>
-  <div class="content">
-   <div class="title">Student Assistant</div>
-   <div class="description">
-    <div class="affiliation"> [Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp
-    </div>
-   </div>
-  </div>
- </div>
+<div class="table_container">
+	<table class="cv">
+		<tr>
+			<td class="year">2015--2018</td>
+			<td class="content">
+				<div class="title">Student Assistant</div>
+				<div class="description">
+					<div class="affiliation"><a href="https://rumo.biologie.hu-berlin.de/tbp/index.php/en/">Theoretical Biophysics</a> group of Prof. Dr. Dr. h.c. Edda Klipp</div>
+				</div>
+			</td>
+		</tr>
+	</table>
 </div>
 
-<!--
-
-<style>
-table, td, tr {
-	border: 0px;
-	border-collapse: collapse;
-	vertical-aligne: top;
-}
-td {
-	padding: 5px;
-	text-align: left;
-}
-</style>
-
-Education
-======
-<table class="tabular_cv">
-	<tr>
-		<td>2021</td>	
-		<td>
-			<table class="inline_table">
-				<tr><td>**M.Sc. in Physics** (expected)</td></tr>
-				<tr><td>Humboldt-Universität zu Berlin</td></tr>
-				<tr><td>Thesis: "An Analytic Approach to the Mean-First-Passage-Time Phase of Isotropic Stochastic Oscillators"</td></tr>
-			</table>
-		</td>
-	</tr><tr>
-		<td>2019</td>
-		<td>
-			<table class="inline_table">
-				<tr><td>**B.Sc. in Physics**</td></tr>
-				<tr><td>Humboldt-Universität zu Berlin</td></tr>
-				<tr><td>Thesis: "Spatial modeling of cell polarization in *Saccharomyces cerevisiae*: Understanding the interplay of GTPase cycling and the cell's transport system"</td></tr>
-			</table>
-		</td>
-	</tr>
-</table>
-
-Research and Work experience
-======
-<table class="tabular_cv">
-	<tr>
-		<td>2015-2018</td>
-		<td>
-			<table class="inline_table">
-				<tr><td>**Student Assistant**</td></tr>
-				<tr><td>[Theoretical Biophysics](https://rumo.biologie.hu-berlin.de/tbp/index.php/en//), Prof. Dr. Dr. h.c. Edda Klipp</td></tr>
-			</table>
-		</td>
-	</tr>
-</table>
--->
 
 <!--  
 Skills
