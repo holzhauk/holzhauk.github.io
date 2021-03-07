@@ -3,7 +3,7 @@ permalink: /
 title: "About Me"
 gallery: 
 	- url: about/FRTPhaseTeaser.png
-	  image-path: about/FRTPhaseTeaser.png
+	  image_path: about/FRTPhaseTeaser.png
           alt: "Isochron and Distribution of Mean-First-Return Times of an Isotropic Stochastic Oscillator"
 	  title: "Isochron and Distribution of Mean-First-Return Times of an Isotropic Stochastic Oscillator"
 excerpt: "About"
