@@ -38,7 +38,7 @@ redirect_from:
 	}
 
 	table.cv td.year {
-		width: 100px;
+		width: 120px;
 		vertical-align: top;
 	}
 
