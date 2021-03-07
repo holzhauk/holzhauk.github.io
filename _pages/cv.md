@@ -34,7 +34,7 @@ redirect_from:
 
 	table.cv td {
 		border: none;
-		font-size: 1em;
+		font-size: 3em;
 	}
 
 	table.cv td.year {
